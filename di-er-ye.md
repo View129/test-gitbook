@@ -70,9 +70,9 @@ TreeSet中的有序状态：根据元素的实际大小而不是插入顺序排�
 
 向TreeSet中添加元素时应注意：
 
-    1、加入的元素都应该实现Comparable接口，否则无法调用compareTo\\\(\\\)方法进行比较，并引起ClassCastException
+1、加入的元素都应该实现Comparable接口，否则无法调用compareTo\\\\(\\\\)方法进行比较，并引起ClassCastException
 
-    2、元素调用compareTo\\\(\\\)方法时会先将其他元素转换成与与自己一样的类型后进行比较，所以TreeSet中的  元素必须是同                              一个类的实例，否则会引发ClassCastException
+2、元素调用compareTo\\\\(\\\\)方法时会先将其他元素转换成与与自己一样的类型后进行比较，所以TreeSet中的  元素必须是同                              一个类的实例，否则会引发ClassCastException
 
 ---
 
