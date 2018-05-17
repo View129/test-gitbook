@@ -46,9 +46,9 @@ Set里存放的对象是无序，不能重复的，集合中的对象不按特�
 
 特点：
 
-1、不能保证元素顺序。    
+1、不能保证元素顺序。
 
-2、线程非安全。   
+2、线程非安全。
 
 3、集合元素可以是null，但最多只有一个，因为Set不允许有相同的元素。
 
@@ -70,11 +70,9 @@ TreeSet中的有序状态：根据元素的实际大小而不是插入顺序排�
 
 向TreeSet中添加元素时应注意：
 
-```
-    1、加入的元素都应该实现Comparable接口，否则无法调用compareTo\\(\\)方法进行比较，并引起ClassCastException
+    1、加入的元素都应该实现Comparable接口，否则无法调用compareTo\\\(\\\)方法进行比较，并引起ClassCastException
 
-    2、元素调用compareTo\\(\\)方法时会先将其他元素转换成与与自己一样的类型后进行比较，所以TreeSet中的  元素必须是同                              一个类的实例，否则会引发ClassCastException
-```
+    2、元素调用compareTo\\\(\\\)方法时会先将其他元素转换成与与自己一样的类型后进行比较，所以TreeSet中的  元素必须是同                              一个类的实例，否则会引发ClassCastException
 
 ---
 
