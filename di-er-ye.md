@@ -166,11 +166,9 @@ Map
 
 特点：
 
-```
 1、key和value不能为null
 
 2、Hashtable类是线程安全的
-```
 
 牢记：要同时重写写equals方法和hashCode方法，而不要只重写其中一个。
 
